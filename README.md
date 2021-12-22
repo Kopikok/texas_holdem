@@ -20,6 +20,7 @@ cd texas_holdem
 <h2>Usages</h2>
 
 <ul>
-<li>Function `make_best_combinations()` from `hold_em.py` constructs the best players combinations, knowing their cards and cards that are on game board.</li> 
+  <li>Function <code>make_best_combinations()</code> from <code>hold_em.py</code> constructs the best players combinations, knowing their cards and cards that are on game board.</li> 
 
-<li>Function `count_win_probabilities()` calculates players win probabilities in this Texas Holdem game.</li> 
+  <li>Function <code>count_win_probabilities()</code> from <code>hold_em.py</code> calculates players win probabilities in this Texas Holdem game, knowing their cards, cards that are on game board and already dropped cards.</li> 
+</ul>
