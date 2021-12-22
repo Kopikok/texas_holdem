@@ -125,8 +125,8 @@ def count_win_probabilities(players_private_cards, known_community_cards, alread
             players_private_cards,
             (*known_community_cards, *card_combination)
         )
-        for i, possible in enumerate(win_probabilities_per_combination):
-            win_probabilities[i] += possible
+        for i, probability in enumerate(win_probabilities_per_combination):
+            win_probabilities[i] += probability
 
     number_of_possible_combinations = combinations_number(
         len(possible_cards),
